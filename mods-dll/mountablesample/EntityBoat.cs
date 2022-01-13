@@ -114,7 +114,9 @@ namespace mountablesample
 
         public virtual Vec2d SeatsToMotion(float dt)
         {
+            // Ignore lag spikes
             dt = Math.Min(0.2f, dt);
+
             int seatsRowing = 0;
 
             double linearMotion = 0;
@@ -123,10 +125,9 @@ namespace mountablesample
             foreach (var seat in Seats)
             {
                 var controls = seat.controls;
-                if (controls.TriesToMove) seatsRowing++;
-                else continue;
+                if (!controls.TriesToMove) continue;
 
-                float str = seatsRowing == 1 ? 1 : 0.5f;
+                float str = ++seatsRowing == 1 ? 1 : 0.5f;
 
                 if (controls.Left || controls.Right)
                 {
@@ -182,16 +183,16 @@ namespace mountablesample
             // sneak + click to remove boat
             if (byEntity.Controls.Sneak && IsEmpty())
             {
-                ItemStack stack = new ItemStack(byEntity.World.GetItem(Code));
+                ItemStack stack = new ItemStack(World.GetItem(Code));
                 if (!byEntity.TryGiveItemStack(stack))
                 {
-                    byEntity.World.SpawnItemEntity(stack, ServerPos.XYZ);
+                    World.SpawnItemEntity(stack, ServerPos.XYZ);
                 }
                 Die();
                 return;
             }
 
-            if (byEntity.World.Side == EnumAppSide.Server)
+            if (World.Side == EnumAppSide.Server)
             {
                 Vec3d boatDirection = Vec3dFromYaw(ServerPos.Yaw);
                 Vec3d hitDirection = hitPosition.Normalize();
