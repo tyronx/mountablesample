@@ -1,0 +1,43 @@
+{
+	code: "xrowboat",
+	class: "ItemBoat",
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "birch", "kapok", "maple", "oak", "pine", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] }
+	],
+	shape: {
+		base: "xeth_rowboat"
+	},
+	texturesByType: {
+		"*": {
+			"1": { base: "game:block/wood/planks/{material}1" }
+		}
+	},
+	maxstacksize: 1,
+	materialDensity: 1,
+	liquidSelectable: 1,
+	creativeinventory: { "general": ["*"], "items": ["*"], "tools": ["*"] },
+	guiTransform: {
+		translation: { x: 4.0, y: 7.0, z: 0.0 },
+		rotation: { x: -32.0, y: -35.0, z: -180.0 },
+		origin: { x: 0.5, y: 0.0, z: 0.5 },
+		scale: 0.6
+	},
+	fpHandTransform: {
+		translation: { x: -0.7, y: 0.0, z: 0.16 },
+		rotation: { x: 90.0, y: 86.0, z: 0.0 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2.45
+	},
+	groundTransform: {
+		translation: { x: 0.0, y: 0.0, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0, y: 0, z: 0 },
+		scale: 6.3
+	},
+	tpHandTransform: {
+		translation: { x: -0.4, y: -0.3, z: -0.7 },
+		rotation: { x: 0.0, y: 12.0, z: 10.0 },
+		origin: { x: 0.5, y: 0.0, z: 0.5 },
+		scale: 1.05
+	}
+}

@@ -1,0 +1,6 @@
+C:\Users\Tyron\Documents\vintagestory\mountablesample\bin\Debug\VSModLauncher.dll
+C:\Users\Tyron\Documents\vintagestory\mountablesample\bin\Debug\VSModLauncher.pdb
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\VSModLauncher.csproj.AssemblyReference.cache
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\VSModLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\VSModLauncher.dll
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\VSModLauncher.pdb

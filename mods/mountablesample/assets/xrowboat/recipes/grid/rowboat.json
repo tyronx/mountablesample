@@ -1,0 +1,11 @@
+{
+    ingredientPattern: "PSP,PPP,RRR",
+    ingredients: {
+        "S": { type: "item", code: "game:saw-*", isTool: true, toolDurabilityCost: 16 },
+        "P": { type: "item", code: "game:plank-*", name: "wood", "quantity": 12 },
+        "R": { type: "item", code: "game:resin" }
+    },
+    width: 3,
+    height: 3,
+    output: { type: "item", code: "xrowboat-{wood}", quantity: 1 }
+}

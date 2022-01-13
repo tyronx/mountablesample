@@ -1,0 +1,35 @@
+{
+    "item-xrowboat-acacia": "Acacia rowboat",
+    "item-xrowboat-aged": "Aged rowboat",
+    "item-xrowboat-birch": "Birch rowboat",
+    "item-xrowboat-kapok": "Kapok rowboat",
+    "item-xrowboat-maple": "Maple rowboat",
+    "item-xrowboat-oak": "Oak rowboat",
+    "item-xrowboat-pine": "Pine rowboat",
+    "item-xrowboat-baldcypress": "Bald cypress rowboat",
+    "item-xrowboat-larch": "Larch rowboat",
+    "item-xrowboat-redwood": "Redwood rowboat",
+    "item-xrowboat-ebony": "Ebony rowboat",
+    "item-xrowboat-walnut": "Walnut rowboat",
+    "item-xrowboat-purpleheart": "Purpleheart rowboat",
+    
+    "item-xrowboatoar": "Rowboat oar",
+
+    "item-creature-xrowboat-acacia": "Acacia rowboat",
+    "item-creature-xrowboat-aged": "Aged rowboat",
+    "item-creature-xrowboat-birch": "Birch rowboat",
+    "item-creature-xrowboat-kapok": "Kapok rowboat",
+    "item-creature-xrowboat-maple": "Maple rowboat",
+    "item-creature-xrowboat-oak": "Oak rowboat",
+    "item-creature-xrowboat-pine": "Pine rowboat",
+    "item-creature-xrowboat-baldcypress": "Bald cypress rowboat",
+    "item-creature-xrowboat-larch": "Larch rowboat",
+    "item-creature-xrowboat-redwood": "Redwood rowboat",
+    "item-creature-xrowboat-ebony": "Ebony rowboat",
+    "item-creature-xrowboat-walnut": "Walnut rowboat",
+    "item-creature-xrowboat-purpleheart": "Purpleheart rowboat",
+
+    "error-no-oar": "You need a oar in both hands to row",
+
+    "info-rowboat": "Right click to mount. Sneak to dismount. Sneak + right click to remove."
+}

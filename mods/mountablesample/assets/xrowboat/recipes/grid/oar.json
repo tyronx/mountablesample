@@ -1,0 +1,10 @@
+{
+    ingredientPattern: "S,S,P",
+    ingredients: {
+        "S": { type: "item", code: "game:stick" },
+        "P": { type: "item", code: "game:plank-*" }
+    },
+    width: 1,
+    height: 3,
+    output: { type: "item", code: "xrowboatoar", quantity: 1 }
+}

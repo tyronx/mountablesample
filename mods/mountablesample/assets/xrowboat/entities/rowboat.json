@@ -1,0 +1,42 @@
+{
+	code: "xrowboat",
+	class: "EntityBoat",
+	variantgroups: [
+		{ code: "material", states: ["acacia", "aged", "birch", "kapok", "maple", "oak", "pine", "baldcypress", "larch", "redwood", "ebony", "walnut", "purpleheart"] }
+	],
+	hitboxSize: { x: 2.8, y: 0.6, z: 2.0 },
+	client: {
+		size: 1.3,
+		renderer: "Shape",
+		shapeByType: {
+			"*": { base: "xeth_rowboat" }
+		},
+		texturesByType: {
+			"*": {
+				"1": { base: "game:block/wood/planks/{material}1" }
+			}
+		},
+		behaviors: [
+			{ code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.5,
+				gravityFactor: 1.0
+			}, 
+			{ code: "interpolateposition" },
+			{ code: "floatupwhenstuck" },
+		],
+	},
+	server: {
+		behaviors: [
+			{ 
+				code: "passivephysics",
+				groundDragFactor: 1,
+				airDragFallingFactor: 0.5,
+				gravityFactor: 1.0
+			},
+			{ code: "floatupwhenstuck" },
+		],
+	},
+	sounds: {
+	}
+}

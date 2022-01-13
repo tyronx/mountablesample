@@ -1,0 +1,17 @@
+{
+	"type": "code",
+	"name": "xrowboat",
+	"modid": "xrowboat",
+	"version": "0.0.2",
+	
+	"description" : "Rowboat",
+	"website": "",
+	"authors": [ "xeth" ],
+
+	"RequiredOnClient": true,
+	"RequiredOnServer": true,
+
+	"dependencies": {
+		"game": "1.16.0"
+	}
+}

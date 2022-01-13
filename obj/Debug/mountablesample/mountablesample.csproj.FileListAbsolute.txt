@@ -1,0 +1,8 @@
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\mountablesample\mountablesample.csproj.AssemblyReference.cache
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\mountablesample\mountablesample.csproj.CoreCompileInputs.cache
+C:\Users\Tyron\Documents\vintagestory\mountablesample\mods\mountablesample.dll
+C:\Users\Tyron\Documents\vintagestory\mountablesample\mods\mountablesample.pdb
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\mountablesample\mountablesample.dll
+C:\Users\Tyron\Documents\vintagestory\mountablesample\obj\Debug\mountablesample\mountablesample.pdb
+C:\Users\Tyron\Documents\vintagestory\mountablesample\mods\mountablesample\mountablesample.dll
+C:\Users\Tyron\Documents\vintagestory\mountablesample\mods\mountablesample\mountablesample.pdb
